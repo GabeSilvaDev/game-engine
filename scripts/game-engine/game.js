@@ -59,7 +59,7 @@ export const Game = {
     },
     draw(){
         Game.Drawing.clearCanvas();
-        Game.Drawing.drawImage(Game.ImageManager.image('background'), 0, 150)
+        Game.Drawing.drawImage(Game.ImageManager.image('background'), 0, 100, 600, 300)
         Game.gameObjectList.forEach(gameObject => gameObject.draw());
     }
 }
